@@ -1,0 +1,114 @@
+/* styles.css */
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.top-row h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Buttons row */
+.button-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+}
+
+.button-row button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.button-row button:hover {
+  background-color: #406fa2;
+}
+
+/* Cards grid */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for cards */
+.card {
+  border: 1px solid #ccc;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.group-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.group-selector label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.group-selector input:checked + span {
+  font-weight: bold;
+}
+
+.group-selector h4 {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.bold-dark-text {
+  font-weight: bold;
+  color: #333; 
+}
+.square-container {
+  display: flex;
+  align-items: center;
+}
+
+.add-button {
+  background-color: #1b242d;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.add-button:hover {
+  background-color: #362d3d;
+}
+
